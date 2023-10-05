@@ -1,0 +1,156 @@
+.cont {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(235, 233, 233);
+}
+
+
+.mes {
+    text-align: center;
+    width: 300px;
+
+}
+
+ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+    border-radius: 10px;
+}
+
+.argollado {
+    width: 6%;
+    margin-top: -5%;
+    margin-left: -35%;
+    position: absolute;
+}
+
+.argollado1 {
+    width: 6%;
+    margin-top: -5%;
+    margin-left: 25%;
+    position: absolute;
+}
+
+.dia1 {
+    grid-column-start: 1;
+}
+
+.dia2 {
+    grid-column-start: 4;
+}
+
+.dia3 {
+    grid-column-start: 4;
+}
+
+.dia4 {
+    grid-column-start: 7;
+}
+
+.dia5 {
+    grid-column-start: 2;
+}
+
+.dia6 {
+    grid-column-start: 5;
+}
+
+.dia7 {
+    grid-column-start: 7;
+}
+
+.dia8 {
+    grid-column-start: 3;
+}
+
+.dia9 {
+    grid-column-start: 6;
+}
+
+.dia10 {
+    grid-column-start: 1;
+}
+
+.dia11 {
+    grid-column-start: 4;
+}
+
+.dia12 {
+    grid-column-start: 6;
+}
+
+
+.relleno {
+    color: rgb(146, 145, 145);
+}
+
+.relleno2 {
+    color: red;
+}
+
+.fond {
+
+    gap: 20px;
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    box-shadow: 4px 5px 5px blue;
+
+}
+
+h1 {
+    text-align: left;
+    color: white;
+}
+
+.num {
+    font-size: 350%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name {
+    color: rgb(253, 9, 151);
+    text-align: center;
+
+}
+
+.fondo {
+    background-color: rgb(7, 154, 212);
+    padding: 5%;
+    border-radius: 10px;
+
+}
+
+@media(max-width: 1300px){
+    .cont {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: rgb(235, 233, 233);
+    }
+}
+
+@media(max-width: 995px){
+    .cont {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: rgb(235, 233, 233);
+    }
+}
+
+@media(max-width: 724px){
+    .cont {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
